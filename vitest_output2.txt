@@ -1,0 +1,72 @@
+﻿node.exe : [33mThe CJS build of Vite's 
+Node API is deprecated. See https://vite.
+dev/guide/troubleshooting.html#vite-cjs-n
+ode-api-deprecated for more details.[39m
+Au caractère Ligne:1 : 1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecifi 
+   ed: ([33mThe CJS bu...e details.[3  
+  9m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeComm 
+   andError
+ 
+[33m[7m[33m Vitest [33m[27m 
+"deps.inline" is deprecated. If you rely 
+on vite-node directly, use 
+"server.deps.inline" instead. Otherwise, 
+consider using 
+"deps.optimizer.web.include"[39m
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.8 [39m[90mC:/Users/Youssef/Desktop/Boulot/SEO-v2/seo-v2-dashboard[39m
+
+
+[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1m[7m Unhandled Errors [27m[22mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m
+[31m[1m
+Vitest caught 1 unhandled error during the test run.
+This might cause false positive tests. Resolve unhandled errors to make sure your tests are not affected.[22m[39m
+
+[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[1m[7m 
+Unhandled Error 
+[27m[22mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m
+[31m[1mRangeError[22m: 
+options.minThreads and 
+options.maxThreads must not conflict[39m
+[90m [2mÔØ»[22m new Tinypool node_modu
+les/tinypool/dist/index.js:[2m980:13[22
+m[39m
+[90m [2mÔØ»[22m createForksPool node_m
+odules/vitest/dist/chunks/resolveConfig.R
+xKrDli4.js:[2m6755:16[22m[39m
+[90m [2mÔØ»[22m forks node_modules/vit
+est/dist/chunks/resolveConfig.RxKrDli4.js
+:[2m7663:20[22m[39m
+[90m [2mÔØ»[22m node_modules/vitest/di
+st/chunks/resolveConfig.RxKrDli4.js:[2m7
+689:27[22m[39m
+[90m [2mÔØ»[22m executeTests node_modu
+les/vitest/dist/chunks/resolveConfig.RxKr
+Dli4.js:[2m7680:5[22m[39m
+[90m [2mÔØ»[22m node_modules/vitest/di
+st/chunks/cli-api.C2yC_ESk.js:[2m10798:9
+[22m[39m
+[90m [2mÔØ»[22m Vitest.runFiles node_m
+odules/vitest/dist/chunks/cli-api.C2yC_ES
+k.js:[2m10820:12[22m[39m
+[90m [2mÔØ»[22m Vitest.start node_modu
+les/vitest/dist/chunks/cli-api.C2yC_ESk.j
+s:[2m10662:7[22m[39m
+[90m [2mÔØ»[22m startVitest node_modul
+es/vitest/dist/chunks/cli-api.C2yC_ESk.js
+:[2m11828:7[22m[39m
+
+[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m
+
+[2m Test Files [22m [2mno tests[22m
+[2m      Tests [22m [2mno tests[22m
+[2m     Errors [22m [1m[31m1 error[39m[22m
+[2m   Start at [22m 03:41:00
+[2m   Duration [22m 27ms[2m (transform 0ms, setup 0ms, collect 0ms, tests 0ms, environment 0ms, prepare 0ms)[22m
+

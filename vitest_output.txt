@@ -1,0 +1,136 @@
+﻿node.exe : [33mThe CJS build of Vite's 
+Node API is deprecated. See https://vite.
+dev/guide/troubleshooting.html#vite-cjs-n
+ode-api-deprecated for more details.[39m
+Au caractère Ligne:1 : 1
++ & "C:\Program Files\nodejs/node.exe" 
+"C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecifi 
+   ed: ([33mThe CJS bu...e details.[3  
+  9m:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeComm 
+   andError
+ 
+[33m[7m[33m Vitest [33m[27m 
+"deps.inline" is deprecated. If you rely 
+on vite-node directly, use 
+"server.deps.inline" instead. Otherwise, 
+consider using 
+"deps.optimizer.web.include"[39m
+
+[1m[7m[36m RUN [39m[27m[22m [36mv2.1.8 [39m[90mC:/Users/Youssef/Desktop/Boulot/SEO-v2/seo-v2-dashboard[39m
+
+ [32mÔ£ô[39m src/app/auth/callback/route.test.ts[2m > [22mAuth Callback Route[2m > [22mGET handler[2m > [22mshould redirect to home on successful code exchange
+ [32mÔ£ô[39m src/app/auth/callback/route.test.ts[2m > [22mAuth Callback Route[2m > [22mGET handler[2m > [22mshould redirect to custom next URL when provided
+ [32mÔ£ô[39m src/app/auth/callback/route.test.ts[2m > [22mAuth Callback Route[2m > [22mGET handler[2m > [22mshould redirect to error page when code exchange fails
+ [32mÔ£ô[39m src/app/auth/callback/route.test.ts[2m > [22mAuth Callback Route[2m > [22mGET handler[2m > [22mshould redirect to error page when no code is provided
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22mrenders with score 0 by default
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22mrenders the correct score value
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22mdisplays correct label for excellent score (80-100)
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22mdisplays correct label for good score (60-79)
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22mdisplays correct label for average score (40-59)
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22mdisplays correct label for poor score (20-39)
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22mdisplays correct label for critical score (0-19)
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22mclamps score to 0-100 range
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22muses correct color class for each score range
+ [32mÔ£ô[39m src/components/landing/__tests__/ims-gauge.test.tsx[2m > [22mIMSGauge Component[2m > [22mrenders with aria-label for accessibility
+ [32mÔ£ô[39m __tests__/app/page.test.tsx[2m > [22mLandingPage[2m > [22mshould render the SEO-v2 branding
+ [32mÔ£ô[39m __tests__/app/page.test.tsx[2m > [22mLandingPage[2m > [22mshould render login and signup links
+ [32mÔ£ô[39m __tests__/app/page.test.tsx[2m > [22mLandingPage[2m > [22mshould have correct navigation hrefs
+ [32mÔ£ô[39m __tests__/app/page.test.tsx[2m > [22mLandingPage[2m > [22mshould render the hero section
+ [32mÔ£ô[39m __tests__/app/page.test.tsx[2m > [22mLandingPage[2m > [22mshould render the footer with copyright
+ [32mÔ£ô[39m src/app/dashboard/billing/billing-content.test.tsx[2m > [22mBillingContent[2m > [22mrenders pricing cards
+ [32mÔ£ô[39m src/app/dashboard/billing/billing-content.test.tsx[2m > [22mBillingContent[2m > [22mcalls checkout API on subscribe
+[90mstderr[2m | src/app/dashboard/billi
+ng/billing-content.test.tsx[2m > 
+[22m[2mBillingContent[2m > 
+[22m[2mcalls checkout API on subscribe
+[22m[39mError: TypeError: Cannot 
+destructure property 'error' of 
+'(intermediate value)' as it is 
+undefined.
+    at handleSubscribe [90m(C:\Users\You
+ssef\Desktop\Boulot\SEO-v2\seo-v2-dashboa
+rd\[39msrc\app\dashboard\billing\billing
+-content.tsx:44:25[90m)[39m
+Warning: An update to BillingContent 
+inside a test was not wrapped in 
+act(...).
+
+When testing, code that causes React 
+state updates should be wrapped into 
+act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the 
+behavior the user would see in the 
+browser. Learn more at https://reactjs.or
+g/link/wrap-tests-with-act
+    at BillingContent (C:\Users\Youssef\D
+esktop\Boulot\SEO-v2\seo-v2-dashboard\src
+\app\dashboard\billing\billing-content.ts
+x:21:27)
+
+ [32mÔ£ô[39m src/components/landing/__tests__/hero-section.test.tsx[2m > [22mHeroSection[2m > [22mrenders the hero title and description
+ [32mÔ£ô[39m src/components/landing/__tests__/hero-section.test.tsx[2m > [22mHeroSection[2m > [22mrenders the input and button initially
+ [32mÔ£ô[39m src/components/landing/__tests__/hero-section.test.tsx[2m > [22mHeroSection[2m > [22mshows error for invalid URL
+ [32mÔ£ô[39m __tests__/app/dashboard/page.test.tsx[2m > [22mDashboardPage[2m > [22mWith Sites[2m > [22mshould render the welcome message
+ [32mÔ£ô[39m __tests__/app/dashboard/page.test.tsx[2m > [22mDashboardPage[2m > [22mWith Sites[2m > [22mshould render site cards when user has sites
+ [32mÔ£ô[39m __tests__/app/dashboard/page.test.tsx[2m > [22mDashboardPage[2m > [22mWith Sites[2m > [22mshould display site URLs
+ [32mÔ£ô[39m __tests__/app/dashboard/page.test.tsx[2m > [22mDashboardPage[2m > [22mWith Sites[2m > [22mshould display IMS scores
+ [32mÔ£ô[39m __tests__/app/dashboard/page.test.tsx[2m > [22mDashboardPage[2m > [22mWithout Sites (Onboarding)[2m > [22mshould render the onboarding empty state when user has no sites
+ [32mÔ£ô[39m __tests__/app/dashboard/page.test.tsx[2m > [22mDashboardPage[2m > [22mWithout Sites (Onboarding)[2m > [22mshould display the add site form
+ [32mÔ£ô[39m __tests__/app/dashboard/page.test.tsx[2m > [22mDashboardPage[2m > [22mWithout Sites (Onboarding)[2m > [22mshould display the add first site button
+ [32mÔ£ô[39m __tests__/app/dashboard/page.test.tsx[2m > [22mDashboardPage[2m > [22mWithout Sites (Onboarding)[2m > [22mshould not display the regular welcome message
+ [32mÔ£ô[39m __tests__/app/dashboard/page.test.tsx[2m > [22mDashboardPage[2m > [22mLoading State[2m > [22mshould not show content while loading
+ [32mÔ£ô[39m __tests__/components/dashboard/api-key-manager.test.tsx[2m > [22mAPIKeyManager[2m > [22mshould render the API Keys card title
+ [32mÔ£ô[39m __tests__/components/dashboard/api-key-manager.test.tsx[2m > [22mAPIKeyManager[2m > [22mshould display the Generate New Key button
+ [32mÔ£ô[39m __tests__/components/dashboard/api-key-manager.test.tsx[2m > [22mAPIKeyManager[2m > [22mshould display existing keys in a table
+ [32mÔ£ô[39m __tests__/components/dashboard/api-key-manager.test.tsx[2m > [22mAPIKeyManager[2m > [22mshould display key prefixes with ellipsis
+ [32mÔ£ô[39m __tests__/components/dashboard/api-key-manager.test.tsx[2m > [22mAPIKeyManager[2m > [22mshould display date for each key
+ [32mÔ£ô[39m __tests__/components/dashboard/api-key-manager.test.tsx[2m > [22mAPIKeyManager[2m > [22mshould open the generate dialog when button is clicked
+ [32mÔ£ô[39m src/components/landing/__tests__/hero-section.test.tsx[2m > [22mHeroSection[2m > [22mstarts scanning, calls API, and redirects on success[33m 1120[2mms[22m[39m
+ [32mÔ£ô[39m src/app/auth/auth-code-error/page.test.tsx[2m > [22mAuthCodeErrorPage[2m > [22mRendering[2m > [22mshould render the error page with title
+ [32mÔ£ô[39m src/app/auth/auth-code-error/page.test.tsx[2m > [22mAuthCodeErrorPage[2m > [22mRendering[2m > [22mshould render the error description
+ [32mÔ£ô[39m src/app/auth/auth-code-error/page.test.tsx[2m > [22mAuthCodeErrorPage[2m > [22mRendering[2m > [22mshould render the error message
+ [32mÔ£ô[39m src/app/auth/auth-code-error/page.test.tsx[2m > [22mAuthCodeErrorPage[2m > [22mRendering[2m > [22mshould display the logo
+ [32mÔ£ô[39m src/app/auth/auth-code-error/page.test.tsx[2m > [22mAuthCodeErrorPage[2m > [22mRendering[2m > [22mshould have a back to login button
+ [32mÔ£ô[39m src/app/auth/auth-code-error/page.test.tsx[2m > [22mAuthCodeErrorPage[2m > [22mNavigation[2m > [22mshould navigate to login page when button is clicked
+[90mstderr[2m | src/components/landing/
+__tests__/hero-section.test.tsx[2m > 
+[22m[2mHeroSection[2m > 
+[22m[2mhandles API errors gracefully
+[22m[39mScan error: Error: Server error
+    at handleScan [90m(C:\Users\Youssef\
+Desktop\Boulot\SEO-v2\seo-v2-dashboard\[
+39msrc\components\landing\hero-section.ts
+x:68:23[90m)[39m
+
+ [32mÔ£ô[39m src/components/landing/__tests__/hero-section.test.tsx[2m > [22mHeroSection[2m > [22mhandles API errors gracefully[33m 610[2mms[22m[39m
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mRendering[2m > [22mshould render the welcome title
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mRendering[2m > [22mshould render the welcome subtitle
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mRendering[2m > [22mshould render the no sites card title
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mRendering[2m > [22mshould render the URL input field
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mRendering[2m > [22mshould render the add site button
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mForm Validation[2m > [22mshould have the add button disabled when URL is empty
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mForm Validation[2m > [22mshould enable the add button when URL is entered
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mRendering[2m > [22mshould render the login form with email input
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mRendering[2m > [22mshould render the submit button
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mRendering[2m > [22mshould not render password input (magic link only)
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mRendering[2m > [22mshould display the logo
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mForm Validation[2m > [22mshould show error when submitting empty email
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mForm Validation[2m > [22mshould not call API when email is empty
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mSite Addition[2m > [22mshould call the API when form is submitted with valid URL
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mAccessibility[2m > [22mshould have URL input with correct type
+ [32mÔ£ô[39m src/components/onboarding-empty-state.test.tsx[2m > [22mOnboardingEmptyState[2m > [22mAccessibility[2m > [22mshould have submit button with correct type
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mMagic Link Flow[2m > [22mshould call signInWithOtp when form is submitted with valid email
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mMagic Link Flow[2m > [22mshould show success message after successful magic link request
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mMagic Link Flow[2m > [22mshould show loading state while submitting
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mAccessibility[2m > [22mshould have email input with correct type
+ [32mÔ£ô[39m src/app/auth/login/page.test.tsx[2m > [22mLoginPage[2m > [22mAccessibility[2m > [22mshould have submit button with correct type
